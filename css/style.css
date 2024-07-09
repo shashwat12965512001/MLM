@@ -1,0 +1,251 @@
+.mlm-auth-logo {
+	margin-top: 200px !important;
+    margin-left: 200px !important;
+}
+
+/* User Dashboard Overview Css */
+.nk-wg7 {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+	.nk-wg7>* {
+		width: 100%;
+	}
+}
+
+.nk-wg7-stats {
+    line-height: 1.3;
+}
+
+.nk-wg7-stats-group {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+
+.is-dark .nk-wg7-note, .is-dark .nk-wg7-title {
+    color: #6baafe;
+}
+
+.nk-wg7-note, .nk-wg7-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #526484;
+}
+
+.nk-wg7-stats .number-lg {
+    font-size: 2.25rem;
+    letter-spacing: -.03em;
+    font-weight: 400;
+}
+
+.nk-wg7-note+.number, .nk-wg7-title+.number {
+    margin-top: 0.4375rem;
+}
+
+.nk-wg7-stats .number {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* User Dashboard Refer Us & Earn */
+.nk-refwg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+	.nk-refwg .nk-refwg-invite {
+		width: 55%;
+		border-bottom: none;
+		border-right: 1px solid #dbdfea;
+	}
+}
+
+@media (min-width: 768px){
+	.nk-refwg .nk-refwg-stats {
+		width: 45%;
+	}
+}
+
+.g-3:not(.row) {
+    margin: -0.5rem;
+}
+
+.nk-refwg-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.nk-refwg-group {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 30px;
+}
+
+.nk-refwg-ck {
+    height: 50px;
+    margin-top: 0.75rem;
+}
+
+.nk-refwg-info {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nk-refwg-name .title {
+    font-size: 13px;
+    color: #0971fe;
+}
+
+
+/* User My Account Available Balance Chart */
+.nk-wg1-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nk-wg1-item {
+    min-width: 300px;
+    max-width: 100%;
+}
+
+.nk-wg1-title {
+    font-size: 1.125rem;
+    color: #526484;
+    margin-bottom: 0.25rem;
+}
+
+@media (min-width: 420px){
+	.nk-wg1-amount .amount {
+		font-size: 2.25rem;
+	}
+}
+
+.nk-wg1-amount .amount {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    color: #0971fe;
+    font-weight: 700;
+    letter-spacing: -.025em;
+}
+
+.nk-wg1-amount .amount .small, .nk-wg1-amount .amount small {
+    font-size: 66.66%;
+    font-weight: 400;
+}
+
+.nk-wg1-sub {
+    min-width: 140px;
+}
+
+.sub-text {
+    display: block;
+    font-size: 13px;
+    color: #8094ae;
+}
+
+.lead-text {
+    font-size: .875rem;
+    font-weight: 700;
+    color: #364a63;
+    display: block;
+}
+
+.sub-text span {
+    white-space: nowrap;
+}
+
+.sub-text .dot+span, .sub-text span+.dot {
+    margin-left: 0.25rem;
+}
+
+.dot {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+}
+
+/* User My Account Balance Summary Chart */
+.nk-wg4:not(:last-child) {
+    margin-bottom: 1.75rem;
+}
+
+.nk-wg4:not(:first-child) {
+    margin-top: 1.75rem;
+}
+
+.nk-wg4-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 992px){
+	.flex-lg-nowrap {
+		flex-wrap: nowrap !important;
+	}
+}
+
+.nk-wg4-sub {
+    width: 185px;
+}
+
+.dot.sq {
+    border-radius: 3px;
+}
+
+.dot-lg {
+    height: 12px;
+    width: 12px;
+}
+
+.sub-text .dot+span, .sub-text span+.dot {
+    margin-left: 0.25rem;
+}
+
+.lead-text-lg {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #364a63;
+    display: block;
+}
+
+.nk-wg4-switcher {
+    display: flex;
+    margin: 0 -0.25rem 0.5rem;
+}
+
+.nk-wg4-switcher>li {
+    padding: 0 0.25rem;
+}
+
+.nk-wg4-switcher>li>.dropdown>a {
+    font-size: .875rem;
+    border: 1px solid #dbdfea;
+    padding: 0.25rem 0.75rem;
+    border-radius: 3px;
+}
+
+.nk-wg4-note {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    color: #8094ae;
+}
+
+.nk-wg4-note span {
+    color: #0971fe;
+    font-weight: 700;
+}
